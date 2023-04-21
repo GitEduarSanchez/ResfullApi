@@ -1,6 +1,6 @@
 ﻿using APIRestful.Entities.Models;
 
-namespace API.Interfaces
+namespace APIRestfull.Interfaces
 {
     public interface IFlight
     {
