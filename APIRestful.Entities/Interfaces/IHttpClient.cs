@@ -1,4 +1,6 @@
-﻿namespace API.Interfaces
+﻿using Microsoft.Extensions.Configuration;
+
+namespace APIRestfull.Interfaces
 {
     public interface IHttpClient
     {

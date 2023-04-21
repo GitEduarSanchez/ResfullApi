@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIRestful.Entities", "APIRestful.Entities\APIRestful.Entities.csproj", "{3E8CF605-C29D-4E62-A88C-47099B248650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRestfull.Application", "APIRestfull.Application\APIRestfull.Application.csproj", "{6B85DFFB-8C6C-4270-9505-33BDC67ADE70}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{3E8CF605-C29D-4E62-A88C-47099B248650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E8CF605-C29D-4E62-A88C-47099B248650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E8CF605-C29D-4E62-A88C-47099B248650}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B85DFFB-8C6C-4270-9505-33BDC67ADE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B85DFFB-8C6C-4270-9505-33BDC67ADE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B85DFFB-8C6C-4270-9505-33BDC67ADE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B85DFFB-8C6C-4270-9505-33BDC67ADE70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

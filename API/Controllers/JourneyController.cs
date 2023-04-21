@@ -1,5 +1,6 @@
-﻿using API.Interfaces;
+﻿
 using APIRestful.Entities.Models;
+using APIRestfull.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
