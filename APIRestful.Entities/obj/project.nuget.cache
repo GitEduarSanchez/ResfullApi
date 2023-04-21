@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5CZbXKm++rAok5J528U+DePvL5LWdUmx4eQOC4xKLYHWfob00f3Ndo52hHw0cNUfEzloA9PTAWWBDpnb5rDisw==",
+  "dgSpecHash": "ifgEuBL3a4AdJ6MafsaV+uNZsSlkNL3On4kZyloCIQ+TErqo6FEOBBOs+jfmzhyHtVA2ZRwCCMBkm4Wsqscvfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }

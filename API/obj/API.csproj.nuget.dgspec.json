@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\API\\API.csproj": {}
+    "C:\\Api\\ResfullApi\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj": {
+    "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj",
+        "projectUniqueName": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
         "projectName": "APIRestful.Entities",
-        "projectPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj",
+        "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
         "packagesPath": "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\obj\\",
+        "outputPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,77 +69,14 @@
         }
       }
     },
-    "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\APIRestfull.Application.csproj": {
+    "C:\\Api\\ResfullApi\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\APIRestfull.Application.csproj",
-        "projectName": "APIRestfull.Application",
-        "projectPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\APIRestfull.Application.csproj",
-        "packagesPath": "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\EduarLeonardoSánchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj": {
-                "projectPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestful.Entities\\APIRestful.Entities.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\API\\API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\API\\API.csproj",
+        "projectUniqueName": "C:\\Api\\ResfullApi\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\API\\API.csproj",
+        "projectPath": "C:\\Api\\ResfullApi\\API\\API.csproj",
         "packagesPath": "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\API\\obj\\",
+        "outputPath": "C:\\Api\\ResfullApi\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -154,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\APIRestfull.Application.csproj": {
-                "projectPath": "C:\\Users\\EduarLeonardoSánchez\\source\\repos\\APIRestfaul\\APIRestfull.Application\\APIRestfull.Application.csproj"
+              "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
+                "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj"
               }
             }
           }
@@ -180,7 +123,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.1.1-dev-00295, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",

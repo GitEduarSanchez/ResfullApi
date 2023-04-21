@@ -8,8 +8,8 @@ namespace APIRestful.Entities.Enun
 {
     public enum EnumApiResponse
     {
-        ApiSettings,
         Flights,
-        Contacts
+        Contacts,
+        ApiSettings
     }
 }

@@ -10,3 +10,15 @@ C:\Users\EduarLeonardoSánchez\source\repos\APIRestfaul\APIRestful.Entities\obj\
 C:\Users\EduarLeonardoSánchez\source\repos\APIRestfaul\APIRestful.Entities\obj\Debug\net7.0\refint\APIRestful.Entities.dll
 C:\Users\EduarLeonardoSánchez\source\repos\APIRestfaul\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.pdb
 C:\Users\EduarLeonardoSánchez\source\repos\APIRestfaul\APIRestful.Entities\obj\Debug\net7.0\ref\APIRestful.Entities.dll
+C:\Api\ResfullApi\APIRestful.Entities\bin\Debug\net7.0\APIRestful.Entities.deps.json
+C:\Api\ResfullApi\APIRestful.Entities\bin\Debug\net7.0\APIRestful.Entities.dll
+C:\Api\ResfullApi\APIRestful.Entities\bin\Debug\net7.0\APIRestful.Entities.pdb
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.csproj.AssemblyReference.cache
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.AssemblyInfoInputs.cache
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.AssemblyInfo.cs
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.csproj.CoreCompileInputs.cache
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.dll
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\refint\APIRestful.Entities.dll
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\APIRestful.Entities.pdb
+C:\Api\ResfullApi\APIRestful.Entities\obj\Debug\net7.0\ref\APIRestful.Entities.dll

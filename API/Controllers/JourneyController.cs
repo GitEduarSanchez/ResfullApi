@@ -1,5 +1,6 @@
-﻿using API.Interfaces;
+﻿
 using APIRestful.Entities.Models;
+using APIRestfull.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -43,8 +44,9 @@ namespace API.Controllers
 
 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async void Post([FromBody] string value)
         {
+
         }
 
 
