@@ -1,0 +1,15 @@
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.deps.json
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.dll
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.pdb
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Entities.dll
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Entities.pdb
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.csproj.AssemblyReference.cache
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.AssemblyInfoInputs.cache
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.AssemblyInfo.cs
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.csproj.CoreCompileInputs.cache
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.csproj.CopyComplete
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.dll
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\refint\APIResfault.Application.dll
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.pdb
+C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\ref\APIResfault.Application.dll

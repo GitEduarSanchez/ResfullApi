@@ -4,6 +4,6 @@ namespace APIRestfull.Interfaces
 {
     public interface IFlight
     {
-        Task<Flight[]> GetAllFlightAsync();
+        Task<List<Flight>> GetAllFlightAsync();
     }
 }

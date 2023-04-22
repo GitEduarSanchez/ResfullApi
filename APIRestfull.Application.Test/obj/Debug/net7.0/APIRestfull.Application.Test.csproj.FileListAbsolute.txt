@@ -1,0 +1,12 @@
+C:\Api\ResfullApi\APIRestfull.Application.Test\bin\Debug\net7.0\APIRestfull.Application.Test.deps.json
+C:\Api\ResfullApi\APIRestfull.Application.Test\bin\Debug\net7.0\APIRestfull.Application.Test.dll
+C:\Api\ResfullApi\APIRestfull.Application.Test\bin\Debug\net7.0\APIRestfull.Application.Test.pdb
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.csproj.AssemblyReference.cache
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.AssemblyInfoInputs.cache
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.AssemblyInfo.cs
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.csproj.CoreCompileInputs.cache
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.dll
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\refint\APIRestfull.Application.Test.dll
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\APIRestfull.Application.Test.pdb
+C:\Api\ResfullApi\APIRestfull.Application.Test\obj\Debug\net7.0\ref\APIRestfull.Application.Test.dll

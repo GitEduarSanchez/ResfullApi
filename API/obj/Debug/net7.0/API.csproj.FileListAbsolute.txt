@@ -67,7 +67,9 @@ C:\Api\ResfullApi\API\bin\Debug\net7.0\Serilog.Sinks.File.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\APIResfault.Application.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\APIRestful.Entities.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\APIResfault.Application.pdb
 C:\Api\ResfullApi\API\bin\Debug\net7.0\APIRestful.Entities.pdb
 C:\Api\ResfullApi\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
 C:\Api\ResfullApi\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig

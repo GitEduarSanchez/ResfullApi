@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ifgEuBL3a4AdJ6MafsaV+uNZsSlkNL3On4kZyloCIQ+TErqo6FEOBBOs+jfmzhyHtVA2ZRwCCMBkm4Wsqscvfg==",
+  "dgSpecHash": "aSINv/qxRcA7tUY2jtKoGS1UvGjKFAdzIXP9soR7+ohOA0NP8UV7oOgq4NU7dFz99xrRJnX5HKOPGv7ATxWDiA==",
   "success": true,
   "projectFilePath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
-    "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+    "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

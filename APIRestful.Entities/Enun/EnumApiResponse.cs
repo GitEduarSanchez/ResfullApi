@@ -10,6 +10,7 @@ namespace APIRestful.Entities.Enun
     {
         Flights,
         Contacts,
-        ApiSettings
+        ApiSettings,
+        Journey
     }
 }

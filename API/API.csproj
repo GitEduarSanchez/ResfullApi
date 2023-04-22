@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\APIResfault.Application\APIResfault.Application.csproj" />
     <ProjectReference Include="..\APIRestful.Entities\APIRestful.Entities.csproj" />
   </ItemGroup>
 

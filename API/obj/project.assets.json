@@ -483,11 +483,26 @@
           }
         }
       },
+      "APIResfault.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "APIRestful.Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/APIResfault.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APIResfault.Application.dll": {}
+        }
+      },
       "APIRestful.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/APIRestful.Entities.dll": {}
@@ -1294,6 +1309,11 @@
         "version.txt"
       ]
     },
+    "APIResfault.Application/1.0.0": {
+      "type": "project",
+      "path": "../APIResfault.Application/APIResfault.Application.csproj",
+      "msbuildProject": "../APIResfault.Application/APIResfault.Application.csproj"
+    },
     "APIRestful.Entities/1.0.0": {
       "type": "project",
       "path": "../APIRestful.Entities/APIRestful.Entities.csproj",
@@ -1302,6 +1322,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "APIResfault.Application >= 1.0.0",
       "APIRestful.Entities >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Newtonsoft.Json >= 13.0.3",
@@ -1342,6 +1363,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Api\\ResfullApi\\APIResfault.Application\\APIResfault.Application.csproj": {
+              "projectPath": "C:\\Api\\ResfullApi\\APIResfault.Application\\APIResfault.Application.csproj"
+            },
             "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
               "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj"
             }

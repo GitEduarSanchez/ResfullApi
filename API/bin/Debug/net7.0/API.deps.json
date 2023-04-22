@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "API/1.0.0": {
         "dependencies": {
+          "APIResfault.Application": "1.0.0",
           "APIRestful.Entities": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.3",
           "Newtonsoft.Json": "13.0.3",
@@ -258,9 +259,19 @@
         }
       },
       "System.Text.Json/4.6.0": {},
+      "APIResfault.Application/1.0.0": {
+        "dependencies": {
+          "APIRestful.Entities": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "APIResfault.Application.dll": {}
+        }
+      },
       "APIRestful.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "APIRestful.Entities.dll": {}
@@ -483,6 +494,11 @@
       "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
       "path": "system.text.json/4.6.0",
       "hashPath": "system.text.json.4.6.0.nupkg.sha512"
+    },
+    "APIResfault.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "APIRestful.Entities/1.0.0": {
       "type": "project",

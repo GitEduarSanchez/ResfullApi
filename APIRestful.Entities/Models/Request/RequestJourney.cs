@@ -8,7 +8,7 @@ namespace APIRestful.Entities.Models.Request
 {
     public class RequestJourney
     {
-        public string Origin { get; set; }
-        public string Destination { get; set; }
+        public string DepartureStation { get; set; }
+        public string ArrivalStation { get; set; }
     }
 }
