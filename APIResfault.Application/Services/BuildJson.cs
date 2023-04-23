@@ -19,24 +19,24 @@ namespace APIResfault.Application.Services
 
             var flightDTOList = flights.Select(flight => new FlightDTO
             {
-                Origin = flight.DepartureStation,
-                Destination = flight.ArrivalStation,
+                Origin = flight.DepartureStation ?? string.Empty,
+                Destination = flight.ArrivalStation ?? string.Empty,
                 Price = (double)flight.Price,
                 Transport = new Transport
                 {
-                    FlightCarrier = flight.FlightCarrier,
-                    FlightNumber = flight.FlightNumber,
+                    FlightCarrier = flight.FlightCarrier ?? string.Empty,
+                    FlightNumber = flight.FlightNumber ?? string.Empty,
                 }
             }).ToList();
 
             var journey = new Journey
             {
-                Origin = request.DepartureStation,
-                Destination = request.ArrivalStation,
+                Origin = request.DepartureStation ?? string.Empty,
+                Destination = request.ArrivalStation ?? string.Empty,
                 Price = (double)total,
-                Flights = flightDTOList
+                Flights = flightDTOList ?? new List<FlightDTO>()
             };
-           
+
             var JourneyResponse = new JourneyResponse
             {
                 Journey = journey

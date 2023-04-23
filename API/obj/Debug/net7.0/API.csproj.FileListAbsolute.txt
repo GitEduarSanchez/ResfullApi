@@ -51,9 +51,16 @@ C:\Api\ResfullApi\API\bin\Debug\net7.0\API.deps.json
 C:\Api\ResfullApi\API\bin\Debug\net7.0\API.runtimeconfig.json
 C:\Api\ResfullApi\API\bin\Debug\net7.0\API.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\API.pdb
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Elasticsearch.Net.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\FluentValidation.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\Nest.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Serilog.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Serilog.AspNetCore.dll
@@ -67,6 +74,7 @@ C:\Api\ResfullApi\API\bin\Debug\net7.0\Serilog.Sinks.File.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Api\ResfullApi\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\APIResfault.Application.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\APIRestful.Entities.dll
 C:\Api\ResfullApi\API\bin\Debug\net7.0\APIResfault.Application.pdb

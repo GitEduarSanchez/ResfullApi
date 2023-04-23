@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIRestful.Entities", "APIRestful.Entities\APIRestful.Entities.csproj", "{3E8CF605-C29D-4E62-A88C-47099B248650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIResfault.Application", "APIResfault.Application\APIResfault.Application.csproj", "{1D8BE7F6-CFB9-472E-AD31-302D76526458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIResfault.Application", "APIResfault.Application\APIResfault.Application.csproj", "{1D8BE7F6-CFB9-472E-AD31-302D76526458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRestfull.Application.Test", "APIRestfull.Application.Test\APIRestfull.Application.Test.csproj", "{8659730B-2D35-4718-8C7F-36E53FF58BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIRestfull.Application.Test", "APIRestfull.Application.Test\APIRestfull.Application.Test.csproj", "{8659730B-2D35-4718-8C7F-36E53FF58BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

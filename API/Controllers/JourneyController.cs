@@ -32,7 +32,6 @@ namespace API.Controllers
             try
             {
 
-                this.logger.LogInformation("Endpoint succses Flight[]");
                 return Ok();
             }
             catch (Exception ex)

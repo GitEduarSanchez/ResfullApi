@@ -48,6 +48,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -113,9 +117,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -172,9 +184,6 @@
             "projectReferences": {
               "C:\\Api\\ResfullApi\\APIResfault.Application\\APIResfault.Application.csproj": {
                 "projectPath": "C:\\Api\\ResfullApi\\APIResfault.Application\\APIResfault.Application.csproj"
-              },
-              "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
-                "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj"
               }
             }
           }
@@ -189,9 +198,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -207,7 +224,15 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.29.0, )"
             }
           },
           "imports": [
