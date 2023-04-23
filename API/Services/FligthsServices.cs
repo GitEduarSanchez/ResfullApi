@@ -3,13 +3,10 @@
     using APIRestful.Entities.Enun;
     using APIRestful.Entities.Interfaces;
     using APIRestful.Entities.Models;
-    using APIRestful.Entities.Models.Request;
     using APIRestfull.Interfaces;
     using Newtonsoft.Json;
     using System;
-    using System.Collections;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Net.Http;
     using System.Threading.Tasks;
 
@@ -29,9 +26,6 @@
                 HttpResponseMessage response = await this.config.Get(EnumApiResponse.ApiSettings.ToString(), apiSettings);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
-                List<Transport> transports = JsonConvert.DeserializeObject<List<Transport>>(responseBody);
-
-
                 return JsonConvert.DeserializeObject<List<Flight>>(responseBody) ?? throw new ArgumentException("Error: responseBody is null");
             }
             catch (HttpRequestException e)

@@ -1,10 +1,10 @@
-﻿
-using APIRestful.Entities.Models;
-using APIRestfull.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using APIRestful.Entities.Interfaces;
 using APIRestful.Entities.Models.Request;
-using Newtonsoft.Json;
+using FluentValidation;
+using Swashbuckle.AspNetCore.Annotations;
+using APIRestful.Entities.Models;
+using APIRestful.Entities.Enun;
 
 namespace API.Controllers
 {
@@ -12,24 +12,18 @@ namespace API.Controllers
     [ApiController]
     public class JourneyController : ControllerBase
     {
-        private readonly IFlight Flight;
-        private readonly IFlightFiltered FlightFiltered;
         private readonly ILogger<JourneyController> logger;
-        private readonly ITotalCalculator totalCalculator;
-        private readonly IBuildJson buildJson;
+        private readonly IValidator<RequestJourney> Validator;
+        private readonly ISetPostFlight SetPostFlight;
 
         public JourneyController(
-            IFlight flight,
             ILogger<JourneyController> logger,
-            IFlightFiltered flightFiltered,
-            ITotalCalculator totalCalculator,
-            IBuildJson buildJson)
+            IValidator<RequestJourney> validator,
+            ISetPostFlight setPostFlight)
         {
-            this.Flight = flight;
             this.logger = logger;
-            this.FlightFiltered = flightFiltered;
-            this.totalCalculator = totalCalculator;
-            this.buildJson = buildJson;
+            this.Validator = validator;
+            this.SetPostFlight = setPostFlight;
         }
 
         [HttpGet]
@@ -37,10 +31,9 @@ namespace API.Controllers
         {
             try
             {
-                RequestJourney request = new RequestJourney() { DepartureStation = "MZL", ArrivalStation = "BCN" };
-                List<Flight> flights = await this.FlightFiltered.GetFilteredFlight(request);
+
                 this.logger.LogInformation("Endpoint succses Flight[]");
-                return Ok(flights);
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -49,22 +42,35 @@ namespace API.Controllers
             }
         }
 
-
-
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
+        /// <summary>
+        /// GetFlightsAsync
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Journey))]
         public async Task<IActionResult> GetFlightsAsync([FromBody] RequestJourney request)
         {
-            var flights = await this.FlightFiltered.GetFilteredFlight(request);
-            var total = this.totalCalculator.GetTotalPriceCalcultor(flights);
-            var journeyJson = this.buildJson.BuildJourney(request, total, flights);
-            this.logger.LogInformation("Endpoint succses Flight[]");
-            return Ok(journeyJson);
+            try
+            {
+                this.logger.LogInformation("Endpoint succses GetFlightsAsync");
+                return this.Validator.Validate(request).IsValid
+                    ? Ok(this.SetPostFlight.SetPostFlight(request)) :
+                    BadRequest(new { message = "Validation Failed.", errors = this.Validator.Validate(request).Errors });
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogError(ex, "Endpoint Failed GetFlightsAsync");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+
         }
 
 
