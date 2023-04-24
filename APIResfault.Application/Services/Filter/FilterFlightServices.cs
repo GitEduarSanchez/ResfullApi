@@ -1,15 +1,8 @@
-﻿using APIRestful.Entities.Interfaces;
-using APIRestful.Entities.Models;
-using APIRestful.Entities.Models.Request;
-using APIRestfull.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APIResfault.Application.Services.Filter
+﻿namespace APIResfault.Application.Services.Filter
 {
+    using APIRestful.Domain.Interfaces;
+    using APIRestful.Domain.Models;
+    using APIRestful.Domain.Models.Request;
 
     public class FilterFlightServices : IFlightFiltered
     {

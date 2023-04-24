@@ -1,12 +1,7 @@
-﻿using APIRestful.Entities.Models;
-using APIRestful.Entities.Models.Request;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using APIRestful.Domain.Models;
+using APIRestful.Domain.Models.Request;
 
-namespace APIRestful.Entities.Interfaces
+namespace APIRestful.Domain.Interfaces
 {
     public interface IFlightFiltered
     {

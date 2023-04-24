@@ -4,3 +4,6 @@
 *.pdb
 *.txt
 *.suo
+# Allow .cs and .json files
+*.cs
+*.json

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APIRestful.Entities.Models
+﻿namespace APIRestful.Domain.Models
 {
     public class ApiSettings
     {
-        public string BaseUrl { get; set; }
+        public string BaseUrlFlight { get; set; }
+        public string BaseUrlCurrency { get; set; }
+        public string Apikey { get; set; }
         public Resources Resources { get; set; }
     }
 }

@@ -1,14 +1,10 @@
-﻿using APIRestful.Entities.Enun;
-using APIRestful.Entities.Interfaces;
-using APIRestful.Entities.Models;
-using APIRestful.Entities.Models.Request;
-using APIRestfull.Interfaces;
-using Newtonsoft.Json;
-using System.Net.Http.Headers;
-using System.Windows.Markup;
-
-namespace APIResfault.Application.Services
+﻿namespace APIResfault.Application.Services
 {
+    using APIRestful.Domain.Interfaces;
+    using APIRestful.Domain.Models;
+    using APIRestful.Domain.Models.Request;
+    using Newtonsoft.Json;
+
     public class BuildJsonService : IBuildJson
     {
         public BuildJsonService()

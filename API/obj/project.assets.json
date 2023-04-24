@@ -1069,7 +1069,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "APIRestful.Entities": "1.0.0",
+          "APIRestful.Domain": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -1080,7 +1080,7 @@
           "bin/placeholder/APIResfault.Application.dll": {}
         }
       },
-      "APIRestful.Entities/1.0.0": {
+      "APIRestful.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1090,10 +1090,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/APIRestful.Entities.dll": {}
+          "bin/placeholder/APIRestful.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/APIRestful.Entities.dll": {}
+          "bin/placeholder/APIRestful.Domain.dll": {}
         }
       }
     }
@@ -2794,10 +2794,10 @@
       "path": "../APIResfault.Application/APIResfault.Application.csproj",
       "msbuildProject": "../APIResfault.Application/APIResfault.Application.csproj"
     },
-    "APIRestful.Entities/1.0.0": {
+    "APIRestful.Domain/1.0.0": {
       "type": "project",
-      "path": "../APIRestful.Entities/APIRestful.Entities.csproj",
-      "msbuildProject": "../APIRestful.Entities/APIRestful.Entities.csproj"
+      "path": "../APIRestful.Entities/APIRestful.Domain.csproj",
+      "msbuildProject": "../APIRestful.Entities/APIRestful.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

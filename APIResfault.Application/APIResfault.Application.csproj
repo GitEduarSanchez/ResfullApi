@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\APIRestful.Entities\APIRestful.Entities.csproj" />
+    <ProjectReference Include="..\APIRestful.Entities\APIRestful.Domain.csproj" />
   </ItemGroup>
 
 </Project>

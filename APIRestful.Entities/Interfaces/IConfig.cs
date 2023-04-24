@@ -1,13 +1,11 @@
 ﻿
-namespace APIRestful.Entities.Interfaces
+namespace APIRestful.Domain.Interfaces
 {
-    using APIRestful.Entities.Enun;
-    using APIRestful.Entities.Models;
+    using APIRestful.Domain.Models;
     using System.Threading.Tasks;
-
 
     public interface IConfig
     {
-        Task<HttpResponseMessage> Get(string key, ApiSettings apiSettings);
+        Task<HttpResponseMessage> GetAsync(string key, ApiSettings apiSettings);
     }
 }

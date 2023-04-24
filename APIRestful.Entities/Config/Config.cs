@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APIRestful.Entities.Config
+﻿namespace APIRestful.Domain.Models.Config
 {
     public static class Config
     {

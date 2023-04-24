@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e6ybFDhEo0J1c2eilvu1UY3IrFZ5J8ltIbdgX18c5hi0nr8aStMIQl8R9xyWPci6KdppJ073v4BZPT2Aw2VDTw==",
+  "dgSpecHash": "BSO/W3onKLyy68JA8CM4R9HAAP71AC3EVVXHqghHuW8IsR6YbR0Bo94x8J6QDtc3rG4I8r34OjkWTfOzohLG1w==",
   "success": true,
-  "projectFilePath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
+  "projectFilePath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

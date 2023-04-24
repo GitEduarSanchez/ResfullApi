@@ -1,11 +1,9 @@
-﻿using APIRestful.Entities.Interfaces;
-using APIRestful.Entities.Models.Request;
-using APIRestfull.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-
-
-namespace APIResfault.Application.Services.Post
+﻿namespace APIResfault.Application.Services.Post
 {
+    using APIRestful.Domain.Interfaces;
+    using APIRestful.Domain.Models.Request;
+    using Microsoft.AspNetCore.Mvc;
+
     public class PostService : ControllerBase, ISetPostFlight
     {
 

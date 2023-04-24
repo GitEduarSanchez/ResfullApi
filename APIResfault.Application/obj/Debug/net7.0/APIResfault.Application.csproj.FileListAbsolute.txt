@@ -1,8 +1,8 @@
 C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.deps.json
 C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.dll
 C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIResfault.Application.pdb
-C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Entities.dll
-C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Entities.pdb
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Domain.dll
+C:\Api\ResfullApi\APIResfault.Application\bin\Debug\net7.0\APIRestful.Domain.pdb
 C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.csproj.AssemblyReference.cache
 C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Api\ResfullApi\APIResfault.Application\obj\Debug\net7.0\APIResfault.Application.AssemblyInfoInputs.cache

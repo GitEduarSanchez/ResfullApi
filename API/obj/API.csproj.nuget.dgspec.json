@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
-                "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj"
+              "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj": {
+                "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj"
               }
             }
           }
@@ -77,12 +77,12 @@
         }
       }
     },
-    "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj": {
+    "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
-        "projectName": "APIRestful.Entities",
-        "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
+        "projectUniqueName": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj",
+        "projectName": "APIRestful.Domain",
+        "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj",
         "packagesPath": "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\",
         "outputPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\obj\\",
         "projectStyle": "PackageReference",

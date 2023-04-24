@@ -1,6 +1,5 @@
-﻿using APIRestful.Entities.Enun;
-using APIRestful.Entities.Interfaces;
-using APIRestful.Entities.Models;
+﻿using APIRestful.Domain.Interfaces;
+using APIRestful.Domain.Models;
 
 namespace API.Config
 {
@@ -13,10 +12,11 @@ namespace API.Config
             this.config = config;
             this.httpClient = httpClient;
         }
-        public async Task<HttpResponseMessage> Get(string key, ApiSettings apiSettings)
+        public async Task<HttpResponseMessage> GetAsync(string key, ApiSettings apiSettings)
         {
             this.config.GetSection(key).Bind(apiSettings);
-            return await this.httpClient.GetAsync(apiSettings.BaseUrl + apiSettings.Resources.Flights);
+            return await this.httpClient.GetAsync(apiSettings.BaseUrlFlight + apiSettings.Resources.Flights);
         }
     }
 }
+

@@ -1,7 +1,6 @@
-﻿using APIRestful.Entities.Models;
-
-namespace APIRestfull.Interfaces
+﻿namespace APIRestful.Domain.Interfaces
 {
+    using APIRestful.Domain.Models;
     public interface IFlight
     {
         Task<List<Flight>> GetAllFlightAsync();

@@ -1,12 +1,7 @@
-﻿using APIRestful.Entities.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APIRestful.Entities.Interfaces
+﻿namespace APIRestful.Domain.Interfaces
 {
+    using APIRestful.Domain.Models;
+
     public interface ITotalCalculator
     {
         decimal GetTotalPriceCalcultor(List<Flight> flights);

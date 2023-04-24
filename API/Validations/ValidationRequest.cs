@@ -1,8 +1,6 @@
-﻿
-
-namespace API.Validations
+﻿namespace API.Validations
 {
-    using APIRestful.Entities.Models.Request;
+    using APIRestful.Domain.Models.Request;
     using FluentValidation;
     public class ValidationRequest : AbstractValidator<RequestJourney>
     {

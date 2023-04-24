@@ -24,7 +24,9 @@
 
   <ItemGroup>
     <Folder Include="Command\" />
+    <Folder Include="Handlers\" />
     <Folder Include="Query\" />
+    <Folder Include="Services\Currency\" />
   </ItemGroup>
 
 </Project>

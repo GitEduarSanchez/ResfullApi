@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace APIRestfull.Interfaces
+namespace APIRestful.Domain.Interfaces
 {
     public interface IHttpClient
     {

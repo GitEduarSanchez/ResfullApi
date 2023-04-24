@@ -3511,9 +3511,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
-      "projectName": "APIRestful.Entities",
-      "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Entities.csproj",
+      "projectUniqueName": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj",
+      "projectName": "APIRestful.Domain",
+      "projectPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\APIRestful.Domain.csproj",
       "packagesPath": "C:\\Users\\EduarLeonardoSánchez\\.nuget\\packages\\",
       "outputPath": "C:\\Api\\ResfullApi\\APIRestful.Entities\\obj\\",
       "projectStyle": "PackageReference",

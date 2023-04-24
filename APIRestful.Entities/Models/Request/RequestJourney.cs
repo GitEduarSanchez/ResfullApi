@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APIRestful.Entities.Models.Request
+namespace APIRestful.Domain.Models.Request
 {
     public class RequestJourney
     {

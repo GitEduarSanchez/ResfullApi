@@ -1,9 +1,8 @@
 ﻿namespace APIRestfull.Services
 {
-    using APIRestful.Entities.Enun;
-    using APIRestful.Entities.Interfaces;
-    using APIRestful.Entities.Models;
-    using APIRestfull.Interfaces;
+    using APIRestful.Domain.Enun;
+    using APIRestful.Domain.Interfaces;
+    using APIRestful.Domain.Models;
     using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
@@ -23,7 +22,7 @@
             var apiSettings = new ApiSettings();
             try
             {
-                HttpResponseMessage response = await this.config.Get(EnumApiResponse.ApiSettings.ToString(), apiSettings);
+                HttpResponseMessage response = await this.config.GetAsync(EnumApiResponse.ApiSettings.ToString(), apiSettings);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 return JsonConvert.DeserializeObject<List<Flight>>(responseBody) ?? throw new ArgumentException("Error: responseBody is null");

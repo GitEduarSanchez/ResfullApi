@@ -1,9 +1,8 @@
-﻿using APIRestful.Entities.Interfaces;
-using APIRestful.Entities.Models;
-using Microsoft.Extensions.Primitives;
-
-namespace APIResfault.Application.Services
+﻿namespace APIResfault.Application.Services
 {
+    using APIRestful.Domain.Interfaces;
+    using APIRestful.Domain.Models;
+
     public class PriceCalculatorService : ITotalCalculator
     {
 
